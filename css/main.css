@@ -1,0 +1,175 @@
+
+
+ /***base style***/
+body{
+font-family: 'Source Sans Pro', sans-serif;
+color :#2b2b2b;
+}
+
+#about,#work,#contact {
+
+    height : 600px;
+}
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+    width:600px;
+    float: left;
+}
+.third-width{
+    width:400px;
+    float:left;
+}
+
+/**** header ****/
+
+header {
+    height: 800px;
+    background: url('../img/dsc-0731.png');
+    background-size: cover;
+}
+header h1{
+    font-family:'Lora', serif;
+    color:#bbc085;
+    font-size: 40px;
+    padding: 50px 0 65px 25px;
+    
+}
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #9f9f9f;
+    padding-left: 80px; 
+    
+}
+header h2 {
+    width: 1160px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 75px;
+    line-height: 90px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b
+}
+
+
+/**** /header ****/
+
+
+/***** about ****/
+
+#about .full-width{
+    padding: 80px 0;
+}
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size:36px;
+    padding-left: 55px;
+}
+#about p {
+    font-size: 20px;
+    color:grey;
+    line-height:45px;
+    padding-left:50px;
+    padding-right:50px;
+}
+/**** /about ****/
+
+/**** work ****/
+#work {
+    background: #f9ceb7;
+    text-align: center;
+}
+#work .full-width{
+    padding: 118px 0; 
+    
+}
+#work img{
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 20px;
+    line-height: 20px;
+    width: 160px;
+    margin:0 auto;
+}
+#work p {
+    font-family:'Lora',serif;
+    font-size:20px;
+    line-height: 30px;
+    padding:0 50px;
+    
+}
+/**** /work ****/
+
+/**** contact ***/
+#contact {
+    background: #ebebeb;
+}
+#contact .full-width{
+    padding: 110px 0 ;
+}
+#contact #contact-img{
+    border: 14px solid white;
+    margin: 0 0 0 20px;
+}
+#contact h2,#contact #email-header,#contact #envelope,#contact #socialmedia-header,#contact ul{
+    padding: 0 20px 0 115px;
+}
+#contact #envelope{
+    padding: 0 10px 0 115px;
+}
+#contact h2{
+    font-family:'Lora',serif;
+    font-size: 30px;
+    line-height: 70px;
+}
+#contact #email-header{
+    font-size:30px;
+    font-weight:lighter;
+    line-height: 20px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 80px;
+    margin: 40px 0 0 0 ;
+}
+#contact a {
+    text-decoration: underline #ebebeb; 
+    color: #c49075;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 10px;;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img{
+    font-size: 32px;
+    padding-right: 48px;
+}
+#contact #youtube{
+    font-size:5px;
+    padding-right:48px;
+    color:#c49075;
+    
+}
+/**** /contact ****/
