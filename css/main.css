@@ -4,6 +4,11 @@
 body{
 font-family: 'Source Sans Pro', sans-serif;
 color :#2b2b2b;
+min-width:200px;
+  max-width:800px;
+  min-height: 200px;
+  max-height: 300px;
+ 
 }
 
 #about,#work,#contact {
